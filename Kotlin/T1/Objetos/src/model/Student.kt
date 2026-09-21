@@ -4,7 +4,9 @@ class Student(
     name: String, surname: String,
     dni: String, email: String,
     var nia: Int, var mat: Int
-) : Person(name, surname, dni, email) {
+) :
+
+Person(name, surname, dni, email) {
 
     override fun mostrarDatos() {
         super.mostrarDatos()
